@@ -17,7 +17,7 @@ for baris_harga_rumah in data_harga_rumah[1:]:
 		dict_harga_rumah[key_harga_rumah[i]] = baris_harga_rumah[i]
 	harga_rumah.append(dict_harga_rumah)
 print(harga_rumah)
-# STEP 2:
+'''# STEP 2:
 # Buat fungsi  get_all_specified_attribute yang menerima parameter list_of_dictionary 
 # (tipe data list yang berisikan sekumpulan tipe data dictionary) dan specified_key 
 # (tipe data string). Fungsi akan mengembalikan sebuah list yang berisikan seluruh 
@@ -111,3 +111,4 @@ data = transform_data(data, attr_info)
 # Hitunglah prediksi harga dari variabel data tersebut.
 harga = price_based_on_similarity(data, harga_rumah)
 print("Prediksi harga rumah: ", harga)
+'''
